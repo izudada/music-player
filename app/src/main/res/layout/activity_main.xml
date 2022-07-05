@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:id="@+id/reggea"
+        style="@style/musicList"
+        android:text="@string/reggea"/>
+
+    <TextView
+        android:id="@+id/blues"
+        style="@style/musicList"
+        android:text="@string/blues"/>
+
+    <TextView
+        android:id="@+id/hiphop"
+        style="@style/musicList"
+        android:text="@string/hiphop"/>
+
+    <TextView
+        android:id="@+id/classical"
+        style="@style/musicList"
+        android:text="@string/classical"/>
+
+</LinearLayout>
