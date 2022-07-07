@@ -38,5 +38,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Onclick listener on hiphopTextView
+        hiphopTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent hiphopActivity = new Intent(MainActivity.this, BluesActivity.class);
+                startActivity(hiphopActivity);
+            }
+        });
+
     }
 }
