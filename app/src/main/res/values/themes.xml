@@ -14,7 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <!-- Style for all music list item -->
+    <!-- Style for all music category item -->
     <style name="musicList">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -25,5 +25,12 @@
         <item name="android:textSize">21sp</item>
         <item name="android:letterSpacing">0.4</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for all music list item -->
+    <style name="songs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
     </style>
 </resources>

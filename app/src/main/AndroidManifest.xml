@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MusicPlayer">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReggeaActivity"
             android:exported="false"
-            android:label="@string/reggea"/>
+            android:label="@string/reggea" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -4,4 +4,6 @@
     <string name="blues">Blues</string>
     <string name="hiphop">Hiphop</string>
     <string name="classical">Classical</string>
+    <string name="song">Song</string>
+    <string name="artists">Artist</string>
 </resources>
