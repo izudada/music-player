@@ -6,23 +6,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".DetailActivity"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:gravity="center">
 
     <TextView
         android:id="@+id/song_text_view"
         style="@style/musicList"
-        android:text="@string/song"/>
+        android:text="@string/song"
+        android:gravity="center"/>
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:src="@drawable/beach"
-        android:scaleType="centerCrop"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music"
+        android:scaleType="center"/>
 
     <TextView
         android:id="@+id/artist_text_view"
         style="@style/musicList"
-        android:text="@string/artists"/>
+        android:text="@string/artists"
+        android:gravity="center"/>
 
 </LinearLayout>
