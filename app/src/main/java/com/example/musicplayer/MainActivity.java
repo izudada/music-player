@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity {
         hiphopTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent hiphopActivity = new Intent(MainActivity.this, BluesActivity.class);
+                Intent hiphopActivity = new Intent(MainActivity.this, HiphopActivity.class);
                 startActivity(hiphopActivity);
             }
         });
 
         // Onclick listener on classicalTextView
-        hiphopTextView.setOnClickListener(new View.OnClickListener() {
+        classicalTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent classicalActivity = new Intent(MainActivity.this, ClassicalActivity.class);
