@@ -11,13 +11,16 @@
         android:theme="@style/Theme.MusicPlayer">
         <activity
             android:name=".BluesActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Blues"/>
         <activity
             android:name=".HiphopActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Hiphop"/>
         <activity
             android:name=".ClassicalActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Classical"/>
         <activity
             android:name=".DetailActivity"
             android:exported="false" />
