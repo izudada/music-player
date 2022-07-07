@@ -29,5 +29,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Onclick listener on bluesTextView
+        bluesTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent bluesActivity = new Intent(MainActivity.this, BluesActivity.class);
+                startActivity(bluesActivity);
+            }
+        });
+
     }
 }
